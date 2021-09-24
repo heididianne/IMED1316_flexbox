@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+.container{
+  width:1020px;
+  margin:0 auto;
+  background-color: #faf0e6;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+header{
+  width: 100%;
+  text-align: center;
+  background-color: #00b5c8;
+  font-size: 40px;
+}
+.flex-container{
+  display:flex;
+  background-color: #faf0e6;
+  flex-direction: row;
+  align-items: stretch;
+}
+.flex-container div{
+  background-color: #ffffe0;
+  flex-grow:4;
+  height: 150px;
+}
+.flex-container .nav{
+  flex-grow: 1;
+  flex-direction: column;
+  height: auto;
+  font-size: 20px;
+  padding: 20px;
+}
+.flex-container .stacks{
+  flex-grow: 4;
+  height: 75px;
+}
+.flex-container .article{
+  padding: 20px;
+}
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: #66cdaa;
+}
+
+/* Responsive layout- makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container{
+    flex-direction: column;
+  }
+}
