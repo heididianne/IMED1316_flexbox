@@ -13,7 +13,8 @@ header{
   width: 100%;
   text-align: center;
   background-color: #00b5c8;
-  font-size: 40px;
+  font-size: 60px;
+  font-family: 'Pacifico', cursive;
 }
 .flex-container{
   display:flex;
@@ -24,7 +25,7 @@ header{
 .flex-container div{
   background-color: #ffffe0;
   flex-grow:4;
-  height: 150px;
+  height: 380px;
 }
 .flex-container .nav{
   flex-grow: 1;
@@ -32,6 +33,7 @@ header{
   height: auto;
   font-size: 20px;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 .flex-container .stacks{
   flex-grow: 4;
@@ -44,6 +46,7 @@ footer{
   width: 100%;
   text-align: center;
   background-color: #66cdaa;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Responsive layout- makes a one column layout instead of a two-column layout */
